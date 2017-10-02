@@ -1,4 +1,5 @@
 /* flex container */
+
 body {
     display: flex;
     flex-flow: column wrap;
@@ -8,7 +9,9 @@ body {
     border: 5px solid red;
 }
 
+
 /* flex items */
+
 div {
     /* formatting */
     width: 200px;
