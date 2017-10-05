@@ -1,0 +1,17 @@
+body {
+    flex-flow: row wrap;
+    /* justify-content: center; */
+}
+
+li {
+    text-align: left;
+    display: block;
+}
+
+nav {
+    width: 25%
+}
+
+main {
+    width: 75%;
+}
