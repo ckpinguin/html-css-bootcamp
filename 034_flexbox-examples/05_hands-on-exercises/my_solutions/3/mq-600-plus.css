@@ -1,6 +1,8 @@
 body {
-    flex-flow: row wrap;
-    /* justify-content: center; */
+    margin: 10px auto;
+    padding: 0 2em;
+    /* align-content: flex-start;
+    align-items: flex-start; */
 }
 
 li {
@@ -9,7 +11,7 @@ li {
 }
 
 nav {
-    width: 25%
+    width: 25%;
 }
 
 main {
