@@ -7,6 +7,7 @@ header div {
     width: 300px;
     height: 80%;
     margin: 0 1rem;
+    /* border: 2px solid hotpink; */
 }
 
 header div a {
@@ -20,11 +21,15 @@ header nav svg {
 }
 
 header nav {
+    display: flex;
     justify-content: space-between;
+    /* border: 2px solid hotpink; */
 }
 
 header nav a {
+    display: flex;
     padding: 0 1rem;
+    /* border: 2px solid burlywood; */
 }
 
 header nav a:hover {
@@ -32,14 +37,15 @@ header nav a:hover {
     background-color: dimgray;
 }
 
+header nav svg {
+    /* border: 2px solid yellowgreen; */
+}
+
 .idx-hdr-svg {
-    /* TODO: Fix svg position ! */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* padding: 10px 0 0 10px; */
-    width: 35px;
-    height: 100%;
-    /* border: 2px solid hotpink; */
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    /* border: 2px solid blue; */
 }
 
 .idx-hdr-svg:hover {
