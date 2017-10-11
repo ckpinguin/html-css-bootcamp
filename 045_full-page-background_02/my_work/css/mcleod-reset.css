@@ -27,14 +27,11 @@ ol, ul {
 }
 
 a {
-    /* the color of the font for anchor tags is inherited */
-    color: inherit;
     /* no underline */
     text-decoration: none;
 }
 
 button {
-    /* turn the cursor into a pointing finger */
     cursor: pointer;
     background-color: transparent;
 }
@@ -49,4 +46,16 @@ table {
     border-spacing: 0;
     /*borders are collapsed - adjacent table cells share borders */
     border-collapse: collapse;
+}
+
+input, select, progress{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+svg {
+    width: 1.9em;
+    height: 1.9em;
+    fill: currentColor;
 }
