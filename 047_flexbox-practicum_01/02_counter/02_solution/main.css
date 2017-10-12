@@ -1,4 +1,6 @@
-html, body, div {
+html,
+body,
+div {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -64,26 +66,7 @@ html {
     cursor: pointer;
 }
 
-#stepper-1:hover, #stepper-3:hover  {
+#stepper-1:hover,
+#stepper-3:hover {
     background-color: rgba(0, 0, 255, 0.62);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
