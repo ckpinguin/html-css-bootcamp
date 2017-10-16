@@ -1,4 +1,11 @@
-html, body, #atf, h1, h2, div, nav, header {
+html,
+body,
+#atf,
+h1,
+h2,
+div,
+nav,
+header {
     padding: 0;
     border: 0;
     margin: 0;
@@ -31,7 +38,8 @@ header {
     align-items: center;
 }
 
-#logo, nav {
+#logo,
+nav {
     width: 150px;
     height: 40px;
     background-color: red;
